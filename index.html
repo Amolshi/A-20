@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex-Box-Properties</title>
+    <style>
+        .container {
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: row; */
+            /* flex-direction: column-reverse; */
+            /* justify-content: end; */
+            /* justify-content: start; */
+            justify-content: center;
+            /* justify-content: end; */
+            /* justify-content: space-between; */
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+            align-items: center;
+            /* align-items: start; */
+            /* align-items: end; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; */
+            height: 1100px;
+            background-color: #000000;
+            display: flex;
+        }
+
+        .main-title {
+            color: aqua;
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            margin-bottom: -37px;
+        }
+
+        .card {
+            width: 220px;
+            height: 250px;
+            border: 2px solid #c5c0bf;
+            border-radius: 8px;
+            margin: 10px;
+            background-color: #c5c0bf;
+
+        }
+
+        .image {
+            height: 170px;
+            width: 100%;
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        .card-title {
+            text-align: center;
+            margin: 5px;
+            padding: 0px;
+            color: #241917;
+        }
+        .para{
+            color: #b90000;
+            text-align: center;
+        }
+        .heading{
+            font-size: 55px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="main-title">
+        <h1 class="heading">SOCIAL MEDIA  FLEX-BOX</h1>
+        <br><br>
+    </div>
+    <div class="container">
+
+        <div class="card">
+            <img src="./images/whatsapp.png" alt="Whatsapp" class="image">
+            <h2 class="card-title">Whatsapp</h2>
+            <p class="para">Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/insta.jpg" alt="Instagram" class="image">
+            <h2 class="card-title">Instagram</h2>
+            <p class="para">Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/facebook.png" alt="Facebook" class="image">
+            <h2 class="card-title">Facebook</h2>
+            <p class="para">Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/snap.jpg" alt="Snapchat" class="image">
+            <h2 class="card-title">Snapchat</h2>
+            <p class="para">Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+
+</html>
